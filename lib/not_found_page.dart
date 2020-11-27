@@ -20,7 +20,6 @@ class _NotFoundPageState extends State<NotFoundPage>
     super.initState();
     _controller =
         AnimationController(vsync: this, duration: const Duration(seconds: 3))
-          ..addListener(() => setState(() {}))
           ..repeat(reverse: true);
   }
 
